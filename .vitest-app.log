@@ -1,0 +1,10 @@
+
+ RUN  v3.2.4 /Users/adasdairpan/Workspace/MarkScope/landing-page
+
+ ✓ src/App.test.tsx (1 test) 66ms
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  21:41:44
+   Duration  604ms (transform 34ms, setup 36ms, collect 84ms, tests 66ms, environment 233ms, prepare 48ms)
+

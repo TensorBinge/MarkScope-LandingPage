@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">MarkScope favicon</title>
+  <desc id="desc">A warm paper-toned square with a bold M for MarkScope.</desc>
+  <rect width="128" height="128" rx="24" fill="#f0e5d5"/>
+  <path d="M28 96V32h16l20 30 20-30h16v64H84V59L64 87 44 59v37H28Z" fill="#6f4520"/>
+</svg>

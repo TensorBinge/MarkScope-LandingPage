@@ -1,0 +1,15 @@
+
+> markscope-landing-page@0.1.0 test /Users/adasdairpan/Workspace/MarkScope/landing-page
+> vitest run --run
+
+
+ RUN  v3.2.4 /Users/adasdairpan/Workspace/MarkScope/landing-page
+
+ ✓ src/content/siteContent.test.ts (1 test) 1ms
+ ✓ src/App.test.tsx (1 test) 65ms
+
+ Test Files  2 passed (2)
+      Tests  2 passed (2)
+   Start at  21:42:25
+   Duration  484ms (transform 44ms, setup 54ms, collect 74ms, tests 67ms, environment 293ms, prepare 92ms)
+
