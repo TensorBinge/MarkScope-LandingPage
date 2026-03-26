@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 
 import App from './App';
@@ -35,9 +35,11 @@ describe('App', () => {
     expect(comingSoonLink).toBeVisible();
 
     expect(screen.getByText('CommonMark + GFM')).toBeVisible();
-    expect(screen.getByLabelText('iOS reader preview')).toBeVisible();
+    const iosPreview = screen.getByLabelText('iOS reader preview');
+
+    expect(iosPreview).toBeVisible();
     expect(screen.getByText('Markdown document')).toBeVisible();
-    expect(screen.getByText('Math and abc blocks stay readable in the reader.')).toBeVisible();
+    expect(within(iosPreview).getByText('Math and abc blocks stay readable in the reader.')).toBeVisible();
     expect(screen.getByLabelText('Android actions preview')).toBeVisible();
     expect(screen.getByText('Reader tools and quick settings')).toBeVisible();
     expect(screen.getByRole('button', { name: 'Medium font size' })).toBeVisible();
